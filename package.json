@@ -1,0 +1,32 @@
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "Your app description",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "style-loader": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^27.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "acorn": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhanvi1311/CI-CD.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": []
+}
